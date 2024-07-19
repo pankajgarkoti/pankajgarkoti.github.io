@@ -16,6 +16,5 @@ title: Home
 
 ---
 
-### Feedback & Conversations
 
 If you have any feedback or want to discuss anything related to the ideas on this site, feel free to reach out to me on [Twitter](https://twitter.com/feexiks) or shoot an email my way at **garkotipankaj** *at* **gmail** *dot* **com**.
