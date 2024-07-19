@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: ChainFactory Specification Draft 001
 ---
 
