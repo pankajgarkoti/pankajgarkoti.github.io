@@ -3,10 +3,11 @@ layout: default
 title: Home
 ---
 
-# Hi, I'm [Pankaj Garkoti](http://github.com/pankajgarkoti)
+# My Bag of Random Ideas
 
 - This site contains writings from my notes (or projects) which I consider worth sharing.
 - It's mostly Python and LLMs.
+
 
 # Index
 
