@@ -1,3 +1,8 @@
+---
+layout: default
+title: ChainFactory Specification Draft 002
+---
+
 # The ChainFactory Specification
 **Draft 002**
 

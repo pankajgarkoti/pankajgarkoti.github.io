@@ -5,7 +5,8 @@ title: Home
 
 # Hi, I'm [Pankaj Garkoti](http://github.com/pankajgarkoti)
 
-## This site contains writings from my notes and projects which I found worth sharing.
+- This site contains writings from my notes and projects which I found worth sharing.
+- Mostly, I write about Python and LLMs.
 
 # Index
 
@@ -17,5 +18,5 @@ title: Home
 
 # Let's Connect
 
-If you found my ideas interesting, you can follow me on [GitHub](https://github.com/your-github/).
+If you found my ideas interesting, you can follow me on [GitHub](https://github.com/pankajgarkoti/).
 
