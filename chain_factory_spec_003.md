@@ -3,7 +3,6 @@
 ## Overview
 
 `ChainFactory` is a utility to build LLM chains by configuration instead of code. The chains produces this way are reproducible and easy to manage i.e read, edit and share. The created chains can be exported as Python code and used in your projects without much disruption to rest of the system. Additionally, you can pass the YAML configuration to `ChainFactoryEngine` to execute the engine.
-
 **Side Note**: This allows a very interesting pattern where you can create chains during runtime and combine their outputs to do interesting things that are not possible with the standard code defined chains.
 
 ## Installation from PyPI
@@ -16,7 +15,6 @@
 
    Or if you are using `poetry` as the package manager the command would be: `poetry add chainfactory-py@latest`
     
-
 2. The setup is not yet tested with `anthropic` API but it should most likely work. If it does not, please create an issue and I will try to fix it. Or if you are feeling adventurous, feel free to contribute with code :)
 3. Currently, ChainFactory will not work if the env variables do not contain the OpenAI API key.
 
@@ -170,7 +168,6 @@ Endless tools at your command,
 Python's power grows.
 Explanation: This haiku emphasizes the vast array of libraries and tools available in Python, showcasing its versatility and the growing strength of its ecosystem.
 ```
-
 
 ## Feedback and Contact
 For questions or feedback, please create an issue or contact [garkotipankaj@gmail.com](mailto:garkotipankaj@gmail.com).
