@@ -15,6 +15,7 @@ title: Home
 ## Links
 
 |------------------------------------|-------------------------------|
+| New Chainfactory README 25th Nov 2024 | [Read](/README_NOV_25) |
 | ChainFactory Specification Draft 004 | [Read](/chain_factory_spec_004) |
 | ChainFactory Specification Draft 003 | [Read](/chain_factory_spec_003) |
 | ChainFactory Specification Draft 002 | [Read](/chain_factory_spec_002) |
