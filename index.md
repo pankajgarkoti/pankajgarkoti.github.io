@@ -11,7 +11,11 @@ title: Home
 - It's mostly going to be about Python, LLMs and my open source projects.
 - Rarely it will be about psychology, philosophy or psychoactive substances.
 
-## Links
+## Resume
+
+[Download my resume (PDF)](/cv.pdf)
+
+## Writings
 
 |------------------------------------|-------------------------------|
 | ChatGPT Deep Research: Pharmacokinetics and Subjective Effects of Pregabalin, Modafinil, and Piracetam | [Read](/modafinil_pregabalin_piracetam.md) |
