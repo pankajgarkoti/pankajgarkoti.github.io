@@ -13,7 +13,7 @@ title: Home
 
 ## Resume
 
-[Download my resume (PDF)](/cv.pdf) — *Updated January 2026*
+[Download my resume (PDF)](/cv.pdf) — _Updated January 2026_
 
 ## Writings
 
