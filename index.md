@@ -13,16 +13,17 @@ title: Home
 
 ## Resume
 
-[Download my resume (PDF)](/cv.pdf)
+[Download my resume (PDF)](/cv.pdf) — *Updated January 2026*
 
 ## Writings
 
 |------------------------------------|-------------------------------|
+| Modeling the C. elegans Connectome with Rate-Based Neural Networks | [Read](/c_elegans_simulation.md) |
 | ChatGPT Deep Research: Pharmacokinetics and Subjective Effects of Pregabalin, Modafinil, and Piracetam | [Read](/modafinil_pregabalin_piracetam.md) |
-| New Chainfactory README 25th Nov 2024 | [Read](/README_NOV_25) |
-| ChainFactory Specification Draft 004 | [Read](/chain_factory_spec_004) |
-| ChainFactory Specification Draft 003 | [Read](/chain_factory_spec_003) |
-| ChainFactory Specification Draft 002 | [Read](/chain_factory_spec_002) |
-| ChainFactory Specification Draft 001 | [Read](/chain_factory_spec_001) |
+| New Chainfactory README 25th Nov 2024 | [Read](/README_NOV_25.md) |
+| ChainFactory Specification Draft 004 | [Read](/chain_factory_spec_004.md) |
+| ChainFactory Specification Draft 003 | [Read](/chain_factory_spec_003.md) |
+| ChainFactory Specification Draft 002 | [Read](/chain_factory_spec_002.md) |
+| ChainFactory Specification Draft 001 | [Read](/chain_factory_spec_001.md) |
 
 If you have any feedback or want to discuss anything related to the ideas on this site, feel free to reach out to me on [Twitter](https://twitter.com/feexiks) or shoot an email my way at **garkotipankaj** _at_ **gmail** _dot_ **com**.
