@@ -3,13 +3,44 @@ layout: default
 title: Home
 ---
 
-# ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✧
+# Pankaj Garkoti
 
-## What's this?
+## AI & Automation Engineer — Available for Contract Work
 
-- This site contains writings from my notes (or projects) which I consider worth sharing.
-- It's mostly going to be about Python, LLMs and my open source projects.
-- Rarely it will be about psychology, philosophy or psychoactive substances.
+I build AI systems that save businesses time and money.
+
+Whether you need a custom AI agent, an automated workflow, or an LLM integrated into your product — I can help you ship it fast and make it reliable.
+
+**[Hire Me](/contact)** | [Services](/services) | [About](/about) | [Contact](/contact)
+
+---
+
+## What I Do
+
+- **AI Agent Development** — Custom agents, multi-agent orchestration, tool-using LLM systems
+- **Workflow Automation** — Business process automation, data pipelines, API integrations
+- **LLM Integration** — RAG systems, prompt engineering, model evaluation, fine-tuning
+- **Technical Consulting** — System design reviews, AI strategy, team training
+
+---
+
+## Proof of Work
+
+**[CMUX](https://github.com/pankajgarkoti)** — Multi-agent orchestration system with supervisor hierarchy, worker management, and parallel task execution. Production-grade coordination of AI agents working together on complex tasks.
+
+**[ChainFactory](https://github.com/pankajgarkoti)** — LLM pipeline framework for chaining, routing, and managing LLM calls at scale. Built for production reliability.
+
+**[FlowPilot](https://github.com/pankajgarkoti)** — Workflow automation tool for streamlining business processes with intelligent task routing.
+
+---
+
+## Ready to Talk?
+
+If you have a project that needs AI expertise, let's discuss it.
+
+**[Get in Touch](/contact)**
+
+---
 
 ## Resume
 
@@ -25,5 +56,3 @@ title: Home
 | ChainFactory Specification Draft 003 | [Read](/chain_factory_spec_003.md) |
 | ChainFactory Specification Draft 002 | [Read](/chain_factory_spec_002.md) |
 | ChainFactory Specification Draft 001 | [Read](/chain_factory_spec_001.md) |
-
-If you have any feedback or want to discuss anything related to the ideas on this site, feel free to reach out to me on [Twitter](https://twitter.com/feexiks) or shoot an email my way at **garkotipankaj** _at_ **gmail** _dot_ **com**.
