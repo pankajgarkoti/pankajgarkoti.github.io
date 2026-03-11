@@ -215,7 +215,7 @@ The other gap is evaluation. In 2023, I tuned the `sqrt(n/2)` formula by eyeball
 
 ## What This Shows
 
-MavySearch was a side project, not a research paper. The algorithms weren't novel in a computer science sense — K-Means clustering is decades old. What was novel was applying them to this specific problem at a time when the standard approach was "pick a threshold and hope for the best."
+MavySearch was a production microservice, not a research paper. The algorithms weren't novel in a computer science sense — K-Means clustering is decades old. What was novel was applying them to this specific problem at a time when the standard approach was "pick a threshold and hope for the best."
 
 The 7-day iteration from elbow point detection to K-Means reflects a pattern I've found productive: **deploy the first idea fast, observe where it breaks, replace it with something that addresses the specific failure modes.** The elbow method was geometrically elegant but practically fragile. K-Means was less clever but more robust. Production doesn't reward elegance.
 
