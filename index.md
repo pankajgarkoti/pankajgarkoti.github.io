@@ -11,7 +11,7 @@ I build AI systems that save businesses time and money.
 
 Whether you need a custom AI agent, an automated workflow, or an LLM integrated into your product — I can help you ship it fast and make it reliable.
 
-**[Hire Me](/contact)** | [Services](/services) | [Timeline](/timeline) | [About](/about) | [Contact](/contact)
+**[Hire Me](/contact)** | [Services](/services) | [About](/about) | [Contact](/contact)
 
 ---
 
@@ -21,6 +21,10 @@ Whether you need a custom AI agent, an automated workflow, or an LLM integrated 
 - **Workflow Automation** — Business process automation, data pipelines, API integrations
 - **LLM Integration** — RAG systems, prompt engineering, model evaluation, fine-tuning
 - **Technical Consulting** — System design reviews, AI strategy, team training
+
+<div style="text-align: center; margin: 2em 0;">
+  <a href="/timeline" style="display: inline-block; padding: 14px 32px; background: #2563eb; color: white; text-decoration: none; border-radius: 8px; font-size: 1.1em; font-weight: 600;">See My Engineering Timeline →</a>
+</div>
 
 ---
 
@@ -56,7 +60,6 @@ If you have a project that needs AI expertise, let's discuss it.
 ### Research & Specs
 
 |------------------------------------|-------------------------------|
-| Modeling the C. elegans Connectome with Rate-Based Neural Networks | [Read](/c_elegans_simulation.md) |
 | ChatGPT Deep Research: Pharmacokinetics and Subjective Effects of Pregabalin, Modafinil, and Piracetam | [Read](/modafinil_pregabalin_piracetam.md) |
 | New Chainfactory README 25th Nov 2024 | [Read](/README_NOV_25.md) |
 | ChainFactory Specification Draft 004 | [Read](/chain_factory_spec_004.md) |
