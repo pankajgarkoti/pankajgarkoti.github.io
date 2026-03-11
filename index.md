@@ -48,6 +48,13 @@ If you have a project that needs AI expertise, let's discuss it.
 
 ## Writings
 
+### Blog
+
+|------------------------------------|-------------------------------|
+| How to Build a Multi-Agent AI System That Actually Works | [Read](/blog-multi-agent-ai) |
+
+### Research & Specs
+
 |------------------------------------|-------------------------------|
 | Modeling the C. elegans Connectome with Rate-Based Neural Networks | [Read](/c_elegans_simulation.md) |
 | ChatGPT Deep Research: Pharmacokinetics and Subjective Effects of Pregabalin, Modafinil, and Piracetam | [Read](/modafinil_pregabalin_piracetam.md) |
