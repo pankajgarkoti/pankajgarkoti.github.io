@@ -55,6 +55,7 @@ If you have a project that needs AI expertise, let's discuss it.
 ### Blog
 
 |------------------------------------|-------------------------------|
+| Building an Adaptive RAG Cutoff Before RAG Was a Thing | [Read](/blog-adaptive-rag-cutoff) |
 | Building an AI Task Router Before Function Calling Existed | [Read](/blog-ai-task-router) |
 | How to Build a Multi-Agent AI System That Actually Works | [Read](/blog-multi-agent-ai) |
 
