@@ -8,14 +8,16 @@ title: Engineering Evolution Timeline
   max-width: 700px;
   margin: 0 auto 2rem;
   text-align: center;
-  color: #555;
-  font-size: 1.05rem;
-  line-height: 1.6;
+  color: #666;
+  font-size: 1.02rem;
+  line-height: 1.7;
 }
 .timeline-intro h1 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   color: #333;
+  font-weight: 600;
   margin-bottom: 0.5rem;
+  letter-spacing: -0.01em;
 }
 .timeline-legend {
   display: flex;
@@ -28,17 +30,17 @@ title: Engineering Evolution Timeline
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  font-size: 0.85rem;
-  color: #666;
+  font-size: 0.82rem;
+  color: #888;
 }
 .legend-dot {
-  width: 12px;
-  height: 12px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   display: inline-block;
 }
-.legend-dot.ahead { background: #16a34a; }
-.legend-dot.concurrent { background: #2563eb; }
+.legend-dot.ahead { background: #6b9e7a; }
+.legend-dot.concurrent { background: #7b9cbf; }
 
 /* Timeline container */
 .tl {
@@ -54,24 +56,22 @@ title: Engineering Evolution Timeline
   left: 50%;
   top: 0;
   bottom: 0;
-  width: 3px;
-  background: #d1d5db;
+  width: 1px;
+  background: #ddd;
   transform: translateX(-50%);
 }
 
-/* ---- MAJOR ENTRY (full treatment) ---- */
+/* ---- MAJOR ENTRY (flat, minimal) ---- */
 .tl-entry {
   position: relative;
   width: 45%;
-  padding: 1rem 1.25rem;
+  padding: 0.75rem 1rem;
   margin-bottom: 2rem;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
-  border-left: 4px solid #16a34a;
+  background: transparent;
+  border-left: 2px solid #6b9e7a;
 }
 .tl-entry.concurrent {
-  border-left-color: #2563eb;
+  border-left-color: #7b9cbf;
 }
 .tl-entry.left { left: 0; }
 .tl-entry.right { left: 55%; }
@@ -79,59 +79,54 @@ title: Engineering Evolution Timeline
 .tl-entry::after {
   content: '';
   position: absolute;
-  top: 1.2rem;
-  width: 14px;
-  height: 14px;
+  top: 1rem;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
-  background: #16a34a;
-  border: 3px solid #fff;
-  box-shadow: 0 0 0 2px #16a34a;
+  background: #6b9e7a;
 }
 .tl-entry.concurrent::after {
-  background: #2563eb;
-  box-shadow: 0 0 0 2px #2563eb;
+  background: #7b9cbf;
 }
-.tl-entry.left::after { right: -32px; }
-.tl-entry.right::after { left: -32px; }
+.tl-entry.left::after { right: -27px; }
+.tl-entry.right::after { left: -27px; }
 /* Date badge */
 .tl-date {
   display: inline-block;
-  font-size: 0.78rem;
-  font-weight: 600;
-  padding: 0.15rem 0.5rem;
-  border-radius: 4px;
-  background: #f0fdf4;
-  color: #16a34a;
-  margin-bottom: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #999;
+  margin-bottom: 0.25rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
 .tl-entry.concurrent .tl-date {
-  background: #eff6ff;
-  color: #2563eb;
+  color: #999;
 }
 .tl-project {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #1a1a1a;
-  margin: 0.2rem 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #222;
+  margin: 0.15rem 0;
 }
 .tl-desc {
-  font-size: 0.88rem;
-  color: #444;
-  line-height: 1.5;
-  margin: 0.3rem 0;
+  font-size: 0.87rem;
+  color: #555;
+  line-height: 1.55;
+  margin: 0.25rem 0;
 }
 .tl-pattern {
-  font-size: 0.82rem;
-  color: #16a34a;
-  font-weight: 600;
-  margin: 0.4rem 0 0.15rem;
+  font-size: 0.8rem;
+  color: #6b9e7a;
+  font-weight: 500;
+  margin: 0.3rem 0 0.1rem;
 }
 .tl-entry.concurrent .tl-pattern {
-  color: #2563eb;
+  color: #7b9cbf;
 }
 .tl-industry {
-  font-size: 0.8rem;
-  color: #888;
+  font-size: 0.78rem;
+  color: #aaa;
   font-style: italic;
 }
 
@@ -139,38 +134,33 @@ title: Engineering Evolution Timeline
 .tl-minor {
   position: relative;
   width: 45%;
-  padding: 0.45rem 1rem;
-  margin-bottom: 1rem;
-  background: #fafafa;
-  border-radius: 6px;
-  border-left: 3px solid #d1d5db;
+  padding: 0.35rem 1rem;
+  margin-bottom: 0.75rem;
+  background: transparent;
+  border-left: 1px solid #e0e0e0;
 }
 .tl-minor.left { left: 0; }
 .tl-minor.right { left: 55%; }
 .tl-minor::after {
   content: '';
   position: absolute;
-  top: 0.7rem;
-  width: 8px;
-  height: 8px;
+  top: 0.6rem;
+  width: 5px;
+  height: 5px;
   border-radius: 50%;
-  background: #d1d5db;
-  border: 2px solid #fff;
-  box-shadow: 0 0 0 1px #d1d5db;
+  background: #ccc;
 }
-.tl-minor.left::after { right: -29px; }
-.tl-minor.right::after { left: -29px; }
+.tl-minor.left::after { right: -25px; }
+.tl-minor.right::after { left: -25px; }
 .tl-minor .tl-date {
   font-size: 0.7rem;
-  background: #f5f5f5;
-  color: #999;
-  padding: 0.1rem 0.4rem;
+  color: #bbb;
   margin-bottom: 0;
   margin-right: 0.4rem;
 }
 .tl-minor .tl-inline {
   font-size: 0.8rem;
-  color: #888;
+  color: #999;
   display: inline;
 }
 
@@ -183,7 +173,7 @@ title: Engineering Evolution Timeline
   }
   .tl-entry.left::after, .tl-entry.right::after,
   .tl-minor.left::after, .tl-minor.right::after {
-    left: -32px;
+    left: -28px;
     right: auto;
   }
 }
