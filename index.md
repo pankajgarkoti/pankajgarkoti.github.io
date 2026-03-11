@@ -30,11 +30,11 @@ Whether you need a custom AI agent, an automated workflow, or an LLM integrated 
 
 ## Proof of Work
 
-**[CMUX](https://github.com/pankajgarkoti)** — Multi-agent orchestration system with supervisor hierarchy, worker management, and parallel task execution. Production-grade coordination of AI agents working together on complex tasks.
+**[ChainFactory](https://github.com/computer-reinvention/ChainFactory)** — Declarative LLM pipeline framework with .fctr DSL for chaining, routing, and managing LLM calls. Published on PyPI.
 
-**[ChainFactory](https://github.com/pankajgarkoti)** — LLM pipeline framework for chaining, routing, and managing LLM calls at scale. Built for production reliability.
+**[Multiclaude](https://github.com/pankajgarkoti/multiclaude)** — Pure Bash multi-agent orchestration with mailbox protocol, agent lifecycle management, and supervisor coordination.
 
-**[FlowPilot](https://github.com/pankajgarkoti)** — Workflow automation tool for streamlining business processes with intelligent task routing.
+**CMUX** — Self-improving multi-agent system with supervisor hierarchy, automatic rollback, persistent memory, and health monitoring. Running autonomously. *(Open-source template coming soon)*
 
 ---
 
