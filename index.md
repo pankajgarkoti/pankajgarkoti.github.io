@@ -11,7 +11,7 @@ I build AI systems that save businesses time and money.
 
 Whether you need a custom AI agent, an automated workflow, or an LLM integrated into your product — I can help you ship it fast and make it reliable.
 
-**[Hire Me](/contact)** | [Services](/services) | [About](/about) | [Contact](/contact)
+**[Hire Me](/contact)** | [Services](/services) | [Timeline](/timeline) | [About](/about) | [Contact](/contact)
 
 ---
 

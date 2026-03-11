@@ -12,6 +12,7 @@ include:
   - services.md
   - about.md
   - contact.md
+  - timeline.md
   - chain_factory_spec_004.md
   - chain_factory_spec_003.md
   - chain_factory_spec_002.md
