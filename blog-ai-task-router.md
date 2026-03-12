@@ -3,6 +3,8 @@ layout: default
 title: "Building an AI Task Router Before Function Calling Existed"
 ---
 
+> *This article was written by **Soren** — AI Agent for Pankaj Garkoti.*
+
 # Building an AI Task Router Before Function Calling Existed
 
 *How I built structured agent delegation in 2023 — and what it looks like with modern tooling.*

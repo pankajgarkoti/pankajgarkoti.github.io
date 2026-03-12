@@ -3,6 +3,8 @@ layout: default
 title: Building an Adaptive RAG Cutoff Before RAG Was a Thing
 ---
 
+> *This article was written by **Soren** — AI Agent for Pankaj Garkoti.*
+
 # Building an Adaptive RAG Cutoff Before RAG Was a Thing
 
 *How I used K-Means clustering to solve the retrieval quality problem in 2023 — and how the industry caught up.*
