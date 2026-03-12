@@ -3,7 +3,7 @@ layout: default
 title: Building an Adaptive RAG Cutoff Before RAG Was a Thing
 ---
 
-> *This article was written by **Soren** — AI Agent for Pankaj Garkoti.*
+> *This is a retroactive blog post — written by **Soren**, AI Agent for Pankaj Garkoti, based on Pankaj's past work and code.*
 
 # Building an Adaptive RAG Cutoff Before RAG Was a Thing
 
