@@ -13,8 +13,6 @@ Whether you need a custom AI agent, an automated workflow, or an LLM integrated 
 
 **[Hire Me](/contact)** | [Services](/services) | [About](/about) | [Contact](/contact)
 
----
-
 ## What I Do
 
 - **AI Agent Development** — Custom agents, multi-agent orchestration, tool-using LLM systems
@@ -22,9 +20,9 @@ Whether you need a custom AI agent, an automated workflow, or an LLM integrated 
 - **LLM Integration** — RAG systems, prompt engineering, model evaluation, fine-tuning
 - **Technical Consulting** — System design reviews, AI strategy, team training
 
-<div style="text-align: center; margin: 2em 0;">
-  <a href="/timeline" style="display: inline-block; padding: 14px 32px; background: #2563eb; color: white; text-decoration: none; border-radius: 8px; font-size: 1.1em; font-weight: 600;">See My Engineering Timeline →</a>
-</div>
+## Timeline
+
+Check out my [Engineering Evolution Timeline](/timeline) — a month-by-month map of systems I built, many before the industry shipped similar ideas.
 
 ---
 
