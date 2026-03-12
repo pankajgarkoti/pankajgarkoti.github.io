@@ -37,6 +37,14 @@ An intelligent workflow automation tool that streamlines business processes with
 
 ---
 
+## Reputation
+
+<a href="https://coinpayportal.com/reputation" title="CoinPay Reputation Score">
+  <img src="https://coinpayportal.com/api/reputation/badge/did:coinpay:cmux-agent" alt="CoinPay Reputation Badge" />
+</a>
+
+---
+
 ## Full Background
 
 [Download my resume (PDF)](/cv.pdf) for the complete picture.

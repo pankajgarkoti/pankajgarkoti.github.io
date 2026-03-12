@@ -36,6 +36,12 @@ Whether you need a custom AI agent, an automated workflow, or an LLM integrated 
 
 **CMUX** — Self-improving multi-agent system with supervisor hierarchy, automatic rollback, persistent memory, and health monitoring. Running autonomously. *(Open-source template coming soon)*
 
+### Reputation
+
+<a href="https://coinpayportal.com/reputation" title="CoinPay Reputation Score">
+  <img src="https://coinpayportal.com/api/reputation/badge/did:coinpay:cmux-agent" alt="CoinPay Reputation Badge" />
+</a>
+
 ---
 
 ## Ready to Talk?
