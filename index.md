@@ -60,6 +60,7 @@ If you have a project that needs AI expertise, let's discuss it.
 ### Research & Specs
 
 |------------------------------------|-------------------------------|
+| Just Another GPT Wrapper | [Read](/just_another_gpt_wrapper.md) |
 | ChatGPT Deep Research: Pharmacokinetics and Subjective Effects of Pregabalin, Modafinil, and Piracetam | [Read](/modafinil_pregabalin_piracetam.md) |
 | New Chainfactory README 25th Nov 2024 | [Read](/README_NOV_25.md) |
 | ChainFactory Specification Draft 004 | [Read](/chain_factory_spec_004.md) |
