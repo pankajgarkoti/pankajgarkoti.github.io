@@ -121,9 +121,6 @@ title: Engineering Evolution Timeline
   font-weight: 500;
   margin: 0.3rem 0 0.1rem;
 }
-.tl-pattern + .tl-pattern {
-  margin-top: 0.1rem;
-}
 .tl-entry.concurrent .tl-pattern {
   color: #7b9cbf;
 }
