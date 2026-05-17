@@ -68,14 +68,18 @@ title: Engineering Evolution Timeline
   padding: 0.75rem 1rem;
   margin-bottom: 2rem;
   background: transparent;
+}
+.tl-entry.left {
+  left: 0;
   border-left: 2px solid #6b9e7a;
 }
-.tl-entry.concurrent {
-  border-left-color: #7b9cbf;
+.tl-entry.right {
+  left: 55%;
+  border-right: 2px solid #6b9e7a;
 }
-.tl-entry.left { left: 0; }
-.tl-entry.right { left: 55%; }
-/* Connector dot — major */
+.tl-entry.concurrent.left { border-left-color: #7b9cbf; }
+.tl-entry.concurrent.right { border-right-color: #7b9cbf; }
+/* Connector dot — major. Container is 900px max; line at 50%, entries 45% wide → 5% gap = 45px. Dot 8px wide, offset = 45 - 4 = 41px from entry edge to center on the line. */
 .tl-entry::after {
   content: '';
   position: absolute;
@@ -88,8 +92,8 @@ title: Engineering Evolution Timeline
 .tl-entry.concurrent::after {
   background: #7b9cbf;
 }
-.tl-entry.left::after { right: -27px; }
-.tl-entry.right::after { left: -27px; }
+.tl-entry.left::after { right: -41px; }
+.tl-entry.right::after { left: -41px; }
 /* Date badge */
 .tl-date {
   display: inline-block;
@@ -137,10 +141,15 @@ title: Engineering Evolution Timeline
   padding: 0.35rem 1rem;
   margin-bottom: 0.75rem;
   background: transparent;
+}
+.tl-minor.left {
+  left: 0;
   border-left: 1px solid #e0e0e0;
 }
-.tl-minor.left { left: 0; }
-.tl-minor.right { left: 55%; }
+.tl-minor.right {
+  left: 55%;
+  border-right: 1px solid #e0e0e0;
+}
 .tl-minor::after {
   content: '';
   position: absolute;
@@ -150,8 +159,9 @@ title: Engineering Evolution Timeline
   border-radius: 50%;
   background: #ccc;
 }
-.tl-minor.left::after { right: -25px; }
-.tl-minor.right::after { left: -25px; }
+/* Dot 5px wide, offset = 45 - 2.5 ≈ 43px */
+.tl-minor.left::after { right: -43px; }
+.tl-minor.right::after { left: -43px; }
 .tl-minor .tl-date {
   font-size: 0.7rem;
   color: #bbb;
@@ -171,6 +181,9 @@ title: Engineering Evolution Timeline
     width: calc(100% - 50px);
     left: 45px !important;
   }
+  .tl-entry.right { border-right: none; border-left: 2px solid #6b9e7a; }
+  .tl-entry.concurrent.right { border-left-color: #7b9cbf; }
+  .tl-minor.right { border-right: none; border-left: 1px solid #e0e0e0; }
   .tl-entry.left::after, .tl-entry.right::after,
   .tl-minor.left::after, .tl-minor.right::after {
     left: -28px;
