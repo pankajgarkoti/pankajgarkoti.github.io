@@ -79,7 +79,7 @@ title: Engineering Evolution Timeline
 }
 .tl-entry.concurrent.left { border-left-color: #7b9cbf; }
 .tl-entry.concurrent.right { border-right-color: #7b9cbf; }
-/* Connector dot — major. Container is 900px max; line at 50%, entries 45% wide → 5% gap = 45px. Dot 8px wide, offset = 45 - 4 = 41px from entry edge to center on the line. */
+/* Connector dot — major. Entry is 45% of container, line is at 50%, so the gap = 5% of container = (1/9) of entry width. Subtract half the dot (4px) to center it on the line. */
 .tl-entry::after {
   content: '';
   position: absolute;
@@ -92,8 +92,8 @@ title: Engineering Evolution Timeline
 .tl-entry.concurrent::after {
   background: #7b9cbf;
 }
-.tl-entry.left::after { right: -41px; }
-.tl-entry.right::after { left: -41px; }
+.tl-entry.left::after { right: calc(-100% / 9 - 4px); }
+.tl-entry.right::after { left: calc(-100% / 9 - 4px); }
 /* Date badge */
 .tl-date {
   display: inline-block;
@@ -159,9 +159,9 @@ title: Engineering Evolution Timeline
   border-radius: 50%;
   background: #ccc;
 }
-/* Dot 5px wide, offset = 45 - 2.5 ≈ 43px */
-.tl-minor.left::after { right: -43px; }
-.tl-minor.right::after { left: -43px; }
+/* Same geometry as major: gap = (1/9) of entry width, minus half the 5px dot. */
+.tl-minor.left::after { right: calc(-100% / 9 - 2.5px); }
+.tl-minor.right::after { left: calc(-100% / 9 - 2.5px); }
 .tl-minor .tl-date {
   font-size: 0.7rem;
   color: #bbb;
