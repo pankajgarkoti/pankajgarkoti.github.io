@@ -196,7 +196,7 @@ title: Engineering Evolution Timeline
 
 <div class="timeline-intro">
 <h1>Engineering Evolution</h1>
-<p>A month-by-month map of systems I built — many before the industry shipped similar ideas. Not claiming invention, just showing the trajectory.</p>
+<p>A month-by-month map of systems I built — many before the industry shipped similar ideas. This serves 2 purposes: first, it is a record of my own evolution for myself and second, it is my version of a personal portfolio to share.</p>
 </div>
 
 <div class="timeline-legend">

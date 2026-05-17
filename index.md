@@ -5,44 +5,28 @@ title: Home
 
 # Pankaj Garkoti
 
-## AI & Automation Engineer — Available for Contract Work
+Engineer working on AI agents, LLM systems, and automation. Previously co-founder and CTO at Mavex AI and Hear Us.
 
-I build AI systems that save businesses time and money.
+[About](/about) | [Contact](/contact) | [Evolution](/timeline)
 
-Whether you need a custom AI agent, an automated workflow, or an LLM integrated into your product — I can help you ship it fast and make it reliable.
-
-**[Hire Me](/contact)** | [Services](/services) | [About](/about) | [Contact](/contact)
-
-## What I Do
+## Focus Areas
 
 - **AI Agent Development** — Custom agents, multi-agent orchestration, tool-using LLM systems
 - **Workflow Automation** — Business process automation, data pipelines, API integrations
 - **LLM Integration** — RAG systems, prompt engineering, model evaluation, fine-tuning
 - **Technical Consulting** — System design reviews, AI strategy, team training
 
+## Things I've Built
+
+**[ChainFactory](https://github.com/computer-reinvention/ChainFactory)** — LLM pipeline framework with a small DSL for chaining, routing, and managing LLM calls. Published on PyPI.
+
+**[Multiclaude](https://github.com/computer-reinvention/multiclaude)** — Multi-agent orchestration in Bash. Agents talk via a mailbox protocol.
+
+**[Soren](https://github.com/computer-reinvention/soren)** — A self-improving swarm of autonomous AI agents that coordinate through message passing to build, test, and improve software — including their own codebase.
+
 ## Timeline
 
-Check out my [Engineering Evolution Timeline](/timeline) — a month-by-month map of systems I built, many before the industry shipped similar ideas.
-
----
-
-## Proof of Work
-
-**[ChainFactory](https://github.com/computer-reinvention/ChainFactory)** — Declarative LLM pipeline framework with .fctr DSL for chaining, routing, and managing LLM calls. Published on PyPI.
-
-**[Multiclaude](https://github.com/pankajgarkoti/multiclaude)** — Pure Bash multi-agent orchestration with mailbox protocol, agent lifecycle management, and supervisor coordination.
-
-**CMUX** — Self-improving multi-agent system with supervisor hierarchy, automatic rollback, persistent memory, and health monitoring. Running autonomously. *(Open-source template coming soon)*
-
----
-
-## Ready to Talk?
-
-If you have a project that needs AI expertise, let's discuss it.
-
-**[Get in Touch](/contact)**
-
----
+A month-by-month map of systems I built: [Engineering Evolution Timeline](/timeline).
 
 ## Resume
 

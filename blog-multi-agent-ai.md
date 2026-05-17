@@ -13,7 +13,7 @@ title: How to Build a Multi-Agent AI System That Actually Works
 
 Everyone's talking about AI agents. Most tutorials show you a single agent calling a few tools. But real-world problems — the kind businesses pay to solve — require multiple agents working together. And that's where things get hard.
 
-I've spent the past several months building [CMUX](https://github.com/pankajgarkoti), a multi-agent orchestration system where AI agents coordinate to complete complex software engineering tasks autonomously. Agents write code, review each other's work, run tests, and recover from failures — all without human intervention.
+I've spent the past several months building [Soren](https://github.com/computer-reinvention/soren), a multi-agent orchestration system where AI agents coordinate to complete complex software engineering tasks autonomously. Agents write code, review each other's work, run tests, and recover from failures — all without human intervention.
 
 This post covers what I've learned about making multi-agent AI systems that don't just demo well, but actually work in production.
 
@@ -54,7 +54,7 @@ The supervisor:
 
 Workers are disposable. They spin up, complete a focused task, and shut down. The supervisor persists and maintains the big picture.
 
-Here's a simplified version of how CMUX spawns a worker:
+Here's a simplified version of how Soren spawns a worker:
 
 ```python
 async def spawn_worker(agent_id: str, task: str, project_path: str):
@@ -82,7 +82,7 @@ Each worker gets its own tmux window — a real terminal with full shell access.
 
 Agents need to communicate, but direct agent-to-agent communication creates a tangled mess. Instead, use a centralized message bus.
 
-CMUX uses a file-based mailbox — dead simple and surprisingly robust:
+Soren uses a file-based mailbox — dead simple and surprisingly robust:
 
 ```bash
 # Worker reports completion
@@ -184,7 +184,7 @@ This is critical for self-modifying systems. Agents modify the codebase they're 
 
 LLM agents lose all context when their session ends. For a multi-agent system that runs continuously, you need persistent memory that survives across sessions.
 
-CMUX uses a layered memory system:
+Soren uses a layered memory system:
 
 1. **Journal entries** — Structured logs of what each agent did, why, and what they learned. Stored as daily markdown files.
 
