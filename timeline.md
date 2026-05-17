@@ -64,6 +64,7 @@ title: Engineering Evolution Timeline
 /* ---- MAJOR ENTRY (flat, minimal) ---- */
 .tl-entry {
   position: relative;
+  box-sizing: border-box;
   width: 45%;
   padding: 0.75rem 1rem;
   margin-bottom: 2rem;
@@ -137,6 +138,7 @@ title: Engineering Evolution Timeline
 /* ---- MINOR ENTRY (muted, compact) ---- */
 .tl-minor {
   position: relative;
+  box-sizing: border-box;
   width: 45%;
   padding: 0.35rem 1rem;
   margin-bottom: 0.75rem;
