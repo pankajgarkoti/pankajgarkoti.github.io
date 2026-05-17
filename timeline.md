@@ -404,11 +404,10 @@ title: Engineering Evolution Timeline
 <div class="tl-entry right">
   <div class="tl-date">Feb 2026</div>
   <div class="tl-project">Soren</div>
-  <div class="tl-desc">Self-improving swarm of CLI agents in tmux windows, coordinating through a file-based mailbox and router daemon. Supervisor delegates to permanent domain workers and ephemeral clones in git worktrees. Health monitor rolls back bad commits automatically. Semantic memory (fastembed + SQLite) gives agents persistent recall across sessions. Built its own dashboard, journal system, telegram integration, and review pipeline — by modifying its own codebase.</div>
-  <div class="tl-pattern">Pattern: Self-modifying AI system with mechanical safety (auto-rollback on health failure)</div>
-  <div class="tl-pattern">Pattern: File-based mailbox as agent IPC (agent-agnostic — works with any CLI agent)</div>
-  <div class="tl-pattern">Pattern: Worktree-isolated clone workers for parallel task execution</div>
-  <div class="tl-pattern">Pattern: Pattern extraction from commits — lessons feed back into role files</div>
+  <div class="tl-desc">Self-improving swarm of CLI agents in tmux windows — file-based mailbox, router daemon, health monitor with auto-rollback. Builds its own features.</div>
+  <div class="tl-pattern">Pattern: Self-modifying AI with mechanical safety</div>
+  <div class="tl-pattern">Pattern: File-based mailbox as agent-agnostic IPC</div>
+  <div class="tl-pattern">Pattern: Worktree-isolated clones for parallel agents</div>
   <div class="tl-industry">Industry: Emerging research area — no production equivalent</div>
 </div>
 
@@ -416,23 +415,31 @@ title: Engineering Evolution Timeline
 <div class="tl-entry left">
   <div class="tl-date">Mar 2026</div>
   <div class="tl-project">FlowPilot</div>
-  <div class="tl-desc">Browser automation built on three orthogonal paradigms. An AI agent explores a site once and compiles per-domain JavaScript "reflexes" that replay over CDP with zero LLM calls — 10.2× speedup, 5/5 pass rate across benchmarks. When the agent can't proceed, the run pauses and exposes the live CDP browser as a webhook payload; humans or external services resolve it and POST to resume. Unauthenticated trigger hooks make any flow callable from Slack, cron, or Zapier.</div>
-  <div class="tl-pattern">Pattern: Three-tier execution — cached reflexes → LLM regeneration → full agent fallback</div>
-  <div class="tl-pattern">Pattern: Human-in-the-loop as a programmable API primitive (CDP-over-webhook)</div>
-  <div class="tl-pattern">Pattern: Compile-once-replay-forever for LLM-driven workflows</div>
-  <div class="tl-industry">Industry: Browser-use, Skyvern, Browserbase — none cache executable scripts per-domain or expose pause/resume as a first-class protocol</div>
+  <div class="tl-desc">Browser agent that compiles per-domain JS reflexes during exploration, then replays them over CDP with zero LLM calls. 10× speedup on warm runs.</div>
+  <div class="tl-pattern">Pattern: Compile-once-replay-forever for LLM workflows</div>
+  <div class="tl-pattern">Pattern: Three-tier fallback — reflex, regenerate, agent</div>
+  <div class="tl-pattern">Pattern: HITL as programmable API primitive (CDP-over-webhook)</div>
+  <div class="tl-industry">Industry: Browser-use, Skyvern, Browserbase — none cache scripts per-domain</div>
 </div>
 
 <!-- Apr 2026 — MAJOR -->
 <div class="tl-entry right">
   <div class="tl-date">Apr 2026</div>
   <div class="tl-project">trie</div>
-  <div class="tl-desc">Inverts the relationship between code and documentation. Every source file gets a prose mirror in a parallel tree; the reference graph keeps them in sync — edit a function and the cascade regenerates the prose of every caller. A pre-commit gate refuses merges when the tree drifts. An MCP server exposes <code>locate</code>/<code>explain</code>/<code>walk</code> so agents read prose under context pressure instead of grepping syntax. Human-edited sentinel sections survive regeneration, so rationale captured once stays captured.</div>
+  <div class="tl-desc">Prose mirror of the codebase, kept in sync by a reference-graph cascade. Edit a function, descriptions of every caller regenerate.</div>
+  <div class="tl-pattern">Pattern: Reference-graph cascade for doc freshness</div>
+  <div class="tl-pattern">Pattern: Sentinel-preserving regeneration</div>
+  <div class="tl-industry">Industry: Repo maps and semantic indexing all read code, not prose</div>
+</div>
+
+<!-- May 2026 — MAJOR -->
+<div class="tl-entry left">
+  <div class="tl-date">May 2026</div>
+  <div class="tl-project">trie — agent surface</div>
+  <div class="tl-desc">Three-verb MCP interface (<code>locate</code>, <code>explain</code>, <code>walk</code>) exposing the prose tree to coding agents as a persistent context layer. Bidirectional drift verify.</div>
   <div class="tl-pattern">Pattern: Prose as primary artifact, code as executable form</div>
-  <div class="tl-pattern">Pattern: Reference-graph cascade for documentation freshness</div>
-  <div class="tl-pattern">Pattern: Sentinel-preserving regeneration (hand-edits survive auto-rewrites)</div>
-  <div class="tl-pattern">Pattern: MCP as shared context layer between humans and agents</div>
-  <div class="tl-industry">Industry: Repo maps (Aider), semantic indexing (Cursor, Sourcegraph) all index code. None treat prose as the source of truth that code compiles down from.</div>
+  <div class="tl-pattern">Pattern: MCP as shared context between humans and agents</div>
+  <div class="tl-industry">Industry: Aider/Cursor/Sourcegraph index code; trie inverts the artifact</div>
 </div>
 
 </div>
