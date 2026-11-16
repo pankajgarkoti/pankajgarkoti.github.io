@@ -43,6 +43,7 @@ A month-by-month map of systems I built: [Engineering Evolution Timeline](/timel
 ## Writings
 
 |------------------------------------|-------------------------------|
+| Open threads: how the mAGI agent keeps track of what is still open | [Read](/blog-magi-open-threads) |
 | mAGI 0.3: the terminal that is already there, and notes that keep themselves | [Read](/blog-magi-0-3-session-notes) |
 | mAGI 0.2: an event bus and a shared browser for a terminal-agent desktop | [Read](/blog-magi-0-2-event-bus) |
 | Just Another GPT Wrapper | [Read](/just_another_gpt_wrapper.md) |
