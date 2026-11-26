@@ -253,7 +253,3 @@ If you're building a multi-agent AI system, start simple:
 5. Add specialization (dedicated backend, frontend, QA agents) based on actual bottlenecks
 
 The hard part isn't the AI — it's the infrastructure. Agent coordination, error recovery, and persistent memory are what separate a toy from a tool.
-
----
-
-*I build multi-agent AI systems and automation tools for businesses. If you need help designing or implementing an AI agent architecture, check out my [services](/services) or [get in touch](/contact).*
