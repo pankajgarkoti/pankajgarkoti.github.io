@@ -33,7 +33,7 @@ A month-by-month map of systems I built: [Engineering Evolution Timeline](/timel
 
 ## Resume
 
-[Download my resume (PDF)](/cv.pdf) — _Updated January 2026_
+[Download my resume (PDF)](/cv.pdf) — _Updated November 2026_
 
 ## Articles
 
