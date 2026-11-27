@@ -63,9 +63,7 @@ The pattern I see: I keep building one thing to talk to, with other things doing
 
 ## Timeline
 
-Each of these fed mAGI something. Several are still in active use — trie indexes this very site's repo, the dotfiles run the desktop this was written on, and daily-notes.nvim keeps the journal both of us write to. mAGI is where the pattern finally got a home, not where these went to die.
-
-| When | Project | What it taught mAGI |
+| When | Project | What it was |
 |---|---|---|
 | 2022 | Joy (Hear Us) | Wellbeing chatbot on Slack and WhatsApp, with conversation memory |
 | 2022 | [dotfiles](https://github.com/pankajgarkoti/dotfiles) | Neovim and terminal config |
