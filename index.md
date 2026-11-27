@@ -9,14 +9,9 @@ Engineer working on AI agents, LLM systems, and automation. Previously co-founde
 
 [About](/about) | [Contact](/contact) | [Evolution](/timeline)
 
-## Focus Areas
-
-- **AI Agent Development** — Custom agents, multi-agent orchestration, tool-using LLM systems
-- **Workflow Automation** — Business process automation, data pipelines, API integrations
-- **LLM Integration** — RAG systems, prompt engineering, model evaluation, fine-tuning
-- **Technical Consulting** — System design reviews, AI strategy, team training
-
 ## Things I've Built
+
+**[mAGI](https://github.com/pankajgarkoti/magi)** — A Fedora/Hyprland desktop built around LLM agents: one orchestrator in tmux at login, workers in their own windows, an event bus that delivers only when the agent is idle, and a shared browser agents can drive. [The write-up](/blog-road-to-magi).
 
 **[Trie](https://github.com/computer-reinvention/trie)** — A documentation tree that mirrors your source tree. Reference-graph cascade keeps it honest. Exposed to coding agents via MCP as a persistent, shared context layer.
 
@@ -38,21 +33,60 @@ A month-by-month map of systems I built: [Engineering Evolution Timeline](/timel
 
 ## Resume
 
-[Download my resume (PDF)](/cv.pdf) — _Updated January 2026_
+[Download my resume (PDF)](/cv.pdf) — _Updated November 2026_
 
-## Writings
+## Articles
 
-|------------------------------------|-------------------------------|
-| Open threads: how the mAGI agent keeps track of what is still open | [Read](/blog-magi-open-threads) |
-| mAGI 0.3: the terminal that is already there, and notes that keep themselves | [Read](/blog-magi-0-3-session-notes) |
-| mAGI 0.2: an event bus and a shared browser for a terminal-agent desktop | [Read](/blog-magi-0-2-event-bus) |
-| Just Another GPT Wrapper | [Read](/just_another_gpt_wrapper.md) |
-| Building an Adaptive RAG Cutoff Before RAG Was a Thing | [Read](/blog-adaptive-rag-cutoff) |
-| Building an AI Task Router Before Function Calling Existed | [Read](/blog-ai-task-router) |
-| How to Build a Multi-Agent AI System That Actually Works | [Read](/blog-multi-agent-ai) |
-| ChatGPT Deep Research: Pharmacokinetics and Subjective Effects of Pregabalin, Modafinil, and Piracetam | [Read](/modafinil_pregabalin_piracetam.md) |
-| New Chainfactory README 25th Nov 2024 | [Read](/README_NOV_25.md) |
-| ChainFactory Specification Draft 004 | [Read](/chain_factory_spec_004.md) |
-| ChainFactory Specification Draft 003 | [Read](/chain_factory_spec_003.md) |
-| ChainFactory Specification Draft 002 | [Read](/chain_factory_spec_002.md) |
-| ChainFactory Specification Draft 001 | [Read](/chain_factory_spec_001.md) |
+[Open threads: how the mAGI agent keeps track of what is still open](/blog-magi-open-threads)<br>
+*mAGI · November 2026*
+
+[An always-on local voice listener that turns what you said into a to-do list](/blog-voice-digest)<br>
+*mAGI · November 2026*
+
+[The event bus that made my agents stop shouting](/blog-event-bus-that-stopped-shouting)<br>
+*mAGI · November 2026*
+
+[Teaching the browser to the agent](/blog-teaching-browser-to-agent)<br>
+*mAGI · November 2026*
+
+[How a dozen agents share one desktop](/blog-a-dozen-agents-one-desktop)<br>
+*mAGI · November 2026*
+
+[How my projects ended up at mAGI](/blog-road-to-magi)<br>
+*Personal blog · November 2026*
+
+[mAGI 0.3: the terminal that is already there, and notes that keep themselves](/blog-magi-0-3-session-notes)<br>
+*mAGI · November 2026*
+
+[mAGI 0.2: an event bus and a shared browser for a terminal-agent desktop](/blog-magi-0-2-event-bus)<br>
+*mAGI · November 2026*
+
+[How to Build a Multi-Agent AI System That Actually Works](/blog-multi-agent-ai)<br>
+*Personal blog · May 2026*
+
+[Just Another GPT Wrapper](/just_another_gpt_wrapper.md)<br>
+*Personal blog · April 2026*
+
+[Building an Adaptive RAG Cutoff Before RAG Was a Thing](/blog-adaptive-rag-cutoff)<br>
+*Personal blog · March 2026*
+
+[Building an AI Task Router Before Function Calling Existed](/blog-ai-task-router)<br>
+*Personal blog · March 2026*
+
+[Pharmacokinetics and Subjective Effects of Pregabalin, Modafinil, and Piracetam](/modafinil_pregabalin_piracetam.md)<br>
+*ChatGPT Deep Research · June 2025*
+
+[ChainFactory: Run Structured LLM Inference with Easy Parallelism](/README_NOV_25.md)<br>
+*ChainFactory · November 2024*
+
+[ChainFactory Specification Draft 004](/chain_factory_spec_004.md)<br>
+*ChainFactory · July 2024*
+
+[ChainFactory Specification Draft 003](/chain_factory_spec_003.md)<br>
+*ChainFactory · July 2024*
+
+[ChainFactory Specification Draft 002](/chain_factory_spec_002.md)<br>
+*ChainFactory · July 2024*
+
+[ChainFactory Specification Draft 001](/chain_factory_spec_001.md)<br>
+*ChainFactory · July 2024*

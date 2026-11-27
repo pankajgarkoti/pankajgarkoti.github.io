@@ -224,7 +224,3 @@ The 7-day iteration from elbow point detection to K-Means reflects a pattern I'v
 The query routing heuristic — a single `if " " in query` check — shows the value of pragmatic shortcuts. It would've been easy to build an ML classifier for query intent. The space check handled 90% of cases with zero complexity. Sometimes the dumbest possible solution is the right one.
 
 Looking at this code three years later, the main thing I'd change is adding evaluation. The algorithms worked well, but "worked well" was based on my subjective judgment. Systematic retrieval benchmarks would have caught edge cases and made the `sqrt(n/2)` formula more defensible. That's the biggest lesson the RAG ecosystem has absorbed since 2023: measure everything, trust nothing.
-
----
-
-*I build AI systems and retrieval pipelines for businesses. If you need help with RAG architecture, semantic search, or AI agent systems, check out my [services](/services) or [get in touch](/contact).*

@@ -320,7 +320,3 @@ Three insights have held up across every tooling generation:
 **3. Validate structurally, not semantically.** Instead of asking the model to "be careful" or "always follow the format," encode constraints as parseable structures that fail loudly when violated. JSON schemas, Pydantic models, enum constraints — these are all descendants of the same idea: make invalid outputs unrepresentable.
 
 The specific code from 2023 is obsolete. The thinking behind it isn't.
-
----
-
-*I build AI systems like this for clients — from agent architectures to production LLM pipelines. If you need structured, reliable AI that actually works in production, [let's talk](/contact). See my full [services](/services) for details.*
