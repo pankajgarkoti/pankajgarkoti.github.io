@@ -37,6 +37,15 @@ A month-by-month map of systems I built: [Engineering Evolution Timeline](/timel
 
 ## Articles
 
+[The event bus that made my agents stop shouting](/blog-event-bus-quiet)<br>
+*Personal blog · November 2026*
+
+[Teaching the browser to the agent](/blog-teaching-browser-to-agent)<br>
+*Personal blog · November 2026*
+
+[How a dozen agents share one desktop](/blog-dozen-agents-one-desktop)<br>
+*Personal blog · November 2026*
+
 
 
 
