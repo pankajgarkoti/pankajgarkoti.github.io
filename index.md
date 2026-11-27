@@ -11,6 +11,8 @@ Engineer working on AI agents, LLM systems, and automation. Previously co-founde
 
 ## Things I've Built
 
+**[mAGI](https://github.com/pankajgarkoti/magi)** — A Fedora/Hyprland desktop built around LLM agents: one orchestrator in tmux at login, workers in their own windows, an event bus that delivers only when the agent is idle, and a shared browser agents can drive. [The write-up](/blog-road-to-magi).
+
 **[Trie](https://github.com/computer-reinvention/trie)** — A documentation tree that mirrors your source tree. Reference-graph cascade keeps it honest. Exposed to coding agents via MCP as a persistent, shared context layer.
 
 **Mavy** — AI executive assistant with fourteen specialist capabilities (calendar, email, tasks, search, and more) coordinated by a multi-agent router. Built at [Mavex AI](https://mavex.ai) (2023–2025, since acquired).
