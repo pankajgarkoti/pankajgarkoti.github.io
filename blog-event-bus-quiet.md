@@ -108,5 +108,3 @@ It does not trust the network. Anything from outside arrives framed as data, qua
 | 27 Nov 2026 | Dispatch poll 2s → 15s; API failure logging + no-draft-guard note | PR #11, PR #12 |
 
 The pattern I keep finding: one thing to talk to, other things doing the work behind it, and something that remembers what is still open. The bus is the hearing for that shape. It took four years of building the mouth before I built the ears properly: wait for idle, check the input box, deliver once, write down the offset, and never shout.
-
-*Verifiable: repo github.com/pankajgarkoti/magi — docs/event-bus.md, agent/bin/orch-bus, agent/lib/bus_store.py, agent/lib/magi_agents.py, agent/systemd/orch-bus.service, agent/browser-bus/examples/page-title.js, tests/agent/bus_guard/, tests/vm/test-bus.sh; PRs #1, #7, #9, #10, #11, #12; commits c64be03, aa752e9, 86c633d, 03b3285, 2411970, 4fc7a5a, 223994c.*

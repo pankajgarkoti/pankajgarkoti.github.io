@@ -100,5 +100,3 @@ magi-reflex dogma ...                 re-measure steady-state detectors
 ```
 
 Four years ago I built a bot people talked to. Three years ago, one assistant with fourteen specialists behind a router. Two years ago, the agent loop and the wishlist item about checking a long task without interrupting it. This year, the browser the agent can use. The senses watch; the muscle acts; the bus carries the news; the ledger remembers. Each piece took the same shape as the last one, and each one finally does only what it can prove.
-
-*Verifiable: repo github.com/pankajgarkoti/magi — PR #8 (magi-reflex Slice C: CDP runner, SQLite registry, phase loop, dogma-filtered steady state, structural guard, practice reflexes); docs/magi-reflex.md, agent/bin/magi-reflex, agent/lib/reflex/ (cdp.py, cli.py, dogma_filter.py, runner.py, signature.py, store.py, testpage/), agent/reflexes/ (local-fill-form, httpbin-submit, theinternet-login), tests/agent/reflex/test_offline.py, tests/agent/reflex/dogma-2026-11-25.json; related: FlowPilot (github.com/computer-reinvention/flowpilot), docs/event-bus.md.*

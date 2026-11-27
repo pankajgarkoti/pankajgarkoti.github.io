@@ -35,50 +35,50 @@ A month-by-month map of systems I built: [Engineering Evolution Timeline](/timel
 
 ## Articles
 
-**The event bus that made my agents stop shouting**<br>
-*Personal blog · November 2026* · [Abstract](/blog-event-bus-quiet)
+[The event bus that made my agents stop shouting](/blog-event-bus-quiet)<br>
+*Personal blog · November 2026*
 
-**Teaching the browser to the agent**<br>
-*Personal blog · November 2026* · [Abstract](/blog-teaching-browser-to-agent)
+[Teaching the browser to the agent](/blog-teaching-browser-to-agent)<br>
+*Personal blog · November 2026*
 
-**How a dozen agents share one desktop**<br>
-*Personal blog · November 2026* · [Abstract](/blog-dozen-agents-one-desktop)
+[How a dozen agents share one desktop](/blog-dozen-agents-one-desktop)<br>
+*Personal blog · November 2026*
 
-**How my projects ended up at mAGI**<br>
-*Personal blog · November 2026* · [Abstract](/blog-road-to-magi)
+[How my projects ended up at mAGI](/blog-road-to-magi)<br>
+*Personal blog · November 2026*
 
-**mAGI 0.3: the terminal that is already there, and notes that keep themselves**<br>
-*mAGI · November 2026* · [Abstract](/blog-magi-0-3-session-notes)
+[mAGI 0.3: the terminal that is already there, and notes that keep themselves](/blog-magi-0-3-session-notes)<br>
+*mAGI · November 2026*
 
-**mAGI 0.2: an event bus and a shared browser for a terminal-agent desktop**<br>
-*mAGI · November 2026* · [Abstract](/blog-magi-0-2-event-bus)
+[mAGI 0.2: an event bus and a shared browser for a terminal-agent desktop](/blog-magi-0-2-event-bus)<br>
+*mAGI · November 2026*
 
-**How to Build a Multi-Agent AI System That Actually Works**<br>
-*Personal blog · May 2026* · [Abstract](/blog-multi-agent-ai)
+[How to Build a Multi-Agent AI System That Actually Works](/blog-multi-agent-ai)<br>
+*Personal blog · May 2026*
 
-**Just Another GPT Wrapper**<br>
-*Personal blog · April 2026* · [Abstract](/just_another_gpt_wrapper.md)
+[Just Another GPT Wrapper](/just_another_gpt_wrapper.md)<br>
+*Personal blog · April 2026*
 
-**Building an Adaptive RAG Cutoff Before RAG Was a Thing**<br>
-*Personal blog · March 2026* · [Abstract](/blog-adaptive-rag-cutoff)
+[Building an Adaptive RAG Cutoff Before RAG Was a Thing](/blog-adaptive-rag-cutoff)<br>
+*Personal blog · March 2026*
 
-**Building an AI Task Router Before Function Calling Existed**<br>
-*Personal blog · March 2026* · [Abstract](/blog-ai-task-router)
+[Building an AI Task Router Before Function Calling Existed](/blog-ai-task-router)<br>
+*Personal blog · March 2026*
 
-**Pharmacokinetics and Subjective Effects of Pregabalin, Modafinil, and Piracetam**<br>
-*ChatGPT Deep Research · June 2025* · [Abstract](/modafinil_pregabalin_piracetam.md)
+[Pharmacokinetics and Subjective Effects of Pregabalin, Modafinil, and Piracetam](/modafinil_pregabalin_piracetam.md)<br>
+*ChatGPT Deep Research · June 2025*
 
-**ChainFactory: Run Structured LLM Inference with Easy Parallelism**<br>
-*ChainFactory · November 2024* · [Abstract](/README_NOV_25.md)
+[ChainFactory: Run Structured LLM Inference with Easy Parallelism](/README_NOV_25.md)<br>
+*ChainFactory · November 2024*
 
-**ChainFactory Specification Draft 004**<br>
-*ChainFactory · July 2024* · [Abstract](/chain_factory_spec_004.md)
+[ChainFactory Specification Draft 004](/chain_factory_spec_004.md)<br>
+*ChainFactory · July 2024*
 
-**ChainFactory Specification Draft 003**<br>
-*ChainFactory · July 2024* · [Abstract](/chain_factory_spec_003.md)
+[ChainFactory Specification Draft 003](/chain_factory_spec_003.md)<br>
+*ChainFactory · July 2024*
 
-**ChainFactory Specification Draft 002**<br>
-*ChainFactory · July 2024* · [Abstract](/chain_factory_spec_002.md)
+[ChainFactory Specification Draft 002](/chain_factory_spec_002.md)<br>
+*ChainFactory · July 2024*
 
-**ChainFactory Specification Draft 001**<br>
-*ChainFactory · July 2024* · [Abstract](/chain_factory_spec_001.md)
+[ChainFactory Specification Draft 001](/chain_factory_spec_001.md)<br>
+*ChainFactory · July 2024*

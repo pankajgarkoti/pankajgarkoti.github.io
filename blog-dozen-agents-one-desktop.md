@@ -78,5 +78,3 @@ Underneath all of this is an identity choice: the desktop boots into the agent's
 The control centre's AGENTS page and the first-login setup carry the same stance: pick an agent, run its official installer, sign in with your own account. No agent is bundled. The default state of the machine is a running conversation, not an app launcher.
 
 That is the whole system as it runs today: tmux windows for bodies, one adapter file per agent, a SQLite ledger for meaning, a spawn path that confirms delivery, explicit finish markers, five small driving commands, one quiet bus with two locks on delivery, watchers for stall and idleness and memory, and a desktop that boots into the conversation.
-
-*Verifiable: repo github.com/pankajgarkoti/magi — docs/event-bus.md, agent/bin/orch-bus, agent/bin/magi-agent, agent/lib/magi_agents.py, agent/lib/bus_store.py, agent/lib/bus_guard.py, agent/systemd/orch-bus.service, agent/bin/tmux-snapshot, agent/bin/tmux-restore, agent/bin/tmux-reap-stale, agent/bin/orch, agent/bin/orch-thread, agent/ORCHESTRATOR.md.*
