@@ -37,6 +37,9 @@ A month-by-month map of systems I built: [Engineering Evolution Timeline](/timel
 
 ## Articles
 
+[An always-on local voice listener that turns what you said into a to-do list](/blog-voice-digest)<br>
+*mAGI · November 2026*
+
 [The event bus that made my agents stop shouting](/blog-event-bus-that-stopped-shouting)<br>
 *mAGI · November 2026*
 
